@@ -1,0 +1,31 @@
+body{
+    background-image: url("background.jpg");
+    background-color: rgb(101, 69, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 209, 238);
+    overflow: hidden;
+    transform: scale(1.5);
+    height: 50 px;
+}
+p{
+    background-color: rgb(203, 248, 126);
+}
+
+.container{
+    width: 20%;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #f5addd;
+    border: 5px solid #f27afa;
+    border-radius: 5px;
+    box-shadow: 0 0 20px;color: aqua(55, 230, 209, 0.1);
+}
+.display{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+
+
